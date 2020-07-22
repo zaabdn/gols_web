@@ -1,0 +1,226 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  body {
+    width: 670px;
+  }
+
+  .header-left img{
+    margin: 20px 0 0 20px;
+    max-width: 100%;
+    height: 50px;
+  }
+
+  .top-wrapper {
+    padding: 100px 0 10px 30px;
+    width: 670px;
+  }
+
+  .ads {
+    margin: 10px 0 0 10px;
+  }
+
+  .ads h1 {
+    font-size: 150px;
+  }
+
+  .ads p {
+    text-align: left;
+    color: grey;
+  }
+
+  .visi {
+    width: 100%;
+  }
+
+  .visi-gambar {
+    width: 50%;
+    float: left;
+  }
+
+  .visi-gambar img {
+    width: 100%;
+  }
+
+  .visi-heading {
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin: 0 10px;
+  }
+
+  .btn {
+    padding: 15px 20px;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .btn-yt {
+    width: 50%;
+    background-color: #FFE01A;
+  }
+  .video {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .list-video {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .video-youtube {
+    margin: 2px 2px;
+    flex: auto;
+    width: 10%;
+  }
+
+
+  .lesson {
+    width: 16%;
+  }
+
+  .lesso
+
+  .btn {
+    padding: 6px 0px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 15px;
+    text-align: center;
+    border:0;
+    width: 50%;
+    height: 30px;
+  }
+
+  .gabung {
+    width: 25%;
+  }
+
+  .blog {
+    padding: 50px 20px;
+    height: 800px;
+  }
+  .card {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .grid{
+    border-radius:8px;
+    display:inline-block;
+  }
+  
+  .text-contents {
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    font-size: 9px;
+    color: grey;
+  }
+
+  .kategori{
+    width:15%;
+    height:150px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.footer-define {
+  float: left;
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 40%;
+  text-align: justify;
+}
+
+.footer-define img {
+  width: 40%;
+}
+
+.footer-contact {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  float: right;
+  width: 30%;
+  text-align: justify;
+}
+
+.footer-contact img {
+  width: 60%;
+}
+
+.footer-bottom {
+
+}
+
+.footer-sosmed {
+  align-items: center;
+  color: white;
+}
+
+.footer-sosmed img {
+  width: 2%;
+  margin: 0 10px;
+}

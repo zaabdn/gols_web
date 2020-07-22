@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-shape {
+  position: relative;
+}
+
+.bg-shape::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 595px;
+  height: 660px;
+  background: url(bg-shape-left.png) left center no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bg-shape::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 755px;
+  height: 860px;
+  background: url(bg-shape-right.png) left center no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.top-wrapper {
+  padding: 100px 0 100px 30px;
+  height: 600px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.ads {
+  margin: 60px 0 0 100px;
+}
+
+.ads h1 {
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: left;
+  color: #FFE01A;
+}
+
+.ads p {
+  text-align: left;
+  color: grey;
+}
+
+.download {
+  background-color: #FFE01A;
+
+}
+
+.btn-yt {
+  width: 50%;
+  background-color: #FFE01A;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 1;
+
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.header {
+  height: 85px;
+  width: 100%;
+  background-color: transparent;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.active {
+  background-color: #fff;
+  top: -70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  transform: translateY(70px);
+  transition: transform 500ms ease, background 500ms ease;
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img{
+  margin: 20px 0 0 120px;
+  max-width: 100%;
+  height: 50px;
+}
+
+.header-right {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  color: #FFE01A;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
+
+.visi {
+  height: 350px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.visi-gambar {
+  width: 50%;
+  float: left;
+}
+
+.visi-heading {
+  width: 50%;
+  float: right;
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.visi-heading p {
+  color: grey;
+}
+
+
+/*-------------------------INI BAGIAN LAYANAN-------------------*/
+/*-------------------------INI BAGIAN LAYANAN-------------------*/
+/*-------------------------INI BAGIAN LAYANAN-------------------*/
+.services {
+
+}
+
+.video {
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.list-video {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.video-youtube {
+  flex: auto;
+  margin: 0 2px;
+  width: 30%;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.lessons{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson {
+  flex: auto;
+  float: left;
+  width: 16%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 0;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+/* HORIZONTAL SCROLL */
+.scroll-container{
+  overflow: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px
+  height: 8px
+}
+.scroll-container::-webkit-scrollbar-track {
+  background-color:transparent;
+  border-radius: 2px
+}
+.scroll-container::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: transparent;
+  transition: all 400ms ease-in-out
+}
+
+/* div di-hover dan scroll bar diberi background solid agar terlihat */
+.scroll-container:hover::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 2px
+}
+.scroll-container:hover::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .4);
+  transition: all 400ms ease-in-out
+}
+.scroll-container:hover::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, .6)
+}
+
+.kategori{
+  width:13%;
+  height:150px;
+  display:inline-block;
+  margin-right:10px;
+  /*border: 1px solid #edebeb;*/
+  box-shadow: -8px -4px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #FFE01A;
+}
+
+.kategori img {
+  margin-top: 10px;
+  height: 150px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.gabung {
+  padding: 15px 40px;
+  background-color: #FFE01A;
+  cursor: pointer;
+  box-shadow: 0 7px #ccb316;
+}
+
+.gabung:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.blog {
+  background-color: #f7f7f7;
+  padding: 50px 130px;
+  height: 900px;
+}
+
+.blog-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: auto;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 30%;
+  padding-bottom: 20px;
+  margin: 0 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 20px 0px rgba(14, 30, 112, 0.1);
+}
+
+.card h3 {
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.card-blog-info li {
+  display: inline-block;
+  font-size: 14px;
+  color: #888888;
+  margin-right: 25px;
+}
+
+.card-blog-info li:last-child {
+  margin-right: 0;
+}
+
+.card-blog-info li a {
+  color: #888888;
+}
+
+.card-blog-info li i, .card-blog-info li span {
+  margin-right: 5px;
+}
+
+.card p {
+  color: grey;
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 10px;
+  height: 250px;
+  background-color: black;
+}
+
+.footer-define {
+  float: left;
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 20%;
+  text-align: justify;
+}
+
+.footer-define img {
+  width: 40%;
+}
+
+.footer-contact {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  float: right;
+  width: 20%;
+}
+
+.footer-contact img {
+  width: 60%;
+}
+
+.footer-bottom {
+
+}
+
+.footer-sosmed {
+  align-items: center;
+  color: white;
+}
+
+.footer-sosmed img {
+  width: 2%;
+  margin: 0 10px;
+}
